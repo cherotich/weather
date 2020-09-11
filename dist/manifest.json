@@ -1,0 +1,30 @@
+{
+    "name":"weather api",
+    "short_name": "weather api",
+    "start_url":"/index.html",
+    "background_color":"#6dcdb1",
+    "theme_color":"#009578",
+    "display":"standalone",
+    "orientation": "portrait-primary",
+    "icons":[
+        {
+            "src":"images/weather96.png",
+            "sizes":"96x96",
+            "type":"image/png",
+            "purpose": "any maskable"
+        },
+        {
+           
+            "src":"images/weather192.png",
+            "sizes":"192x192",
+            "type":"image/png"
+        },
+        {
+            "src":"images/weather512.png",
+            "sizes":"512x512",
+            "type":"image/png"
+        }
+    ]
+
+
+}

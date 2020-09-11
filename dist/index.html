@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content ="width=device-width, initial-scale=1.0">
+       <meta  name="theme-color" content="#009578">
+        <title> Weather API</title>
+        <link rel="stylesheet" href="src/app.css">
+        <link rel="manifest" href="manifest.json">
+   <link rel="apple-touch-icon" href="images/weather192.png">
+    </head>
+    <body>
+        <div class="input">
+          <input type="text" id="fname"/>
+            <input type="text" placeholder="Enter the city" class="input_text">
+            <input type="submit" value="Submit" class="submit">
+          </div>
+        </div>
+
+        <div class="container">
+            <div class="card">
+              <h1 class="name" id="name"></h1>
+              <p class="temp"></p>
+              <p class="clouds"></p>
+              <p class="desc"></p>
+            </div>
+        <script src="src/index.js"></script>
+        <script src="src/app.js"></script>
+    </body>
+</html>
